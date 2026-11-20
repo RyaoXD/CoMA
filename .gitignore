@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local / large artifacts
+/data/
+/outputs/
+/logs/
+/checkpoints/
+/check/
+/zero_shot_rerun/
+/coma.egg-info/
+/model_files/Bio_ClinicalBERT/
+
+# Manuscripts and private notes (keep out of the public tree)
+*.pdf
+/data_problems.md
+/ablation.md
+/coma/constants_backpack.py
+
+# Local experiment / scratch scripts (machine-specific checkpoints)
+/continue.sh
+/reportgen.py
+/reportgen.ipynb
+/reportgen_clear.py
+/test.py
+/test1.py
+/test_*.py
+/run_ablation_hyperparam.sh
+/run_ablation_loss.sh
+/run_kad_detector.sh
+/run_downstream.sh
+/run_downstream_JBHI.sh
+/run_downstream_variance.sh
+/run_pretrain_JBHI.sh
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Logs and notebooks checkpoints
+*.log
+.ipynb_checkpoints/
+wandb/
+lightning_logs/
+
+# Generated visualization images (keep notebooks only)
+/coma/visualization/*.png

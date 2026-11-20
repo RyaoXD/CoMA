@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python ./coma/models/coma/coma_pretrain.py --gpus 1 --batch_size 72 --rewrite --concept_decompose --max_concepts 40 --prompt_vector --use_dpl --vector_length 40 --freeze_prototypes_epochs 5 --instance_prototype random --concept_prototype random --num_instance_prototypes 500 --num_concept_prototypes 500 --prototype_orth --experiment_name full_coma
